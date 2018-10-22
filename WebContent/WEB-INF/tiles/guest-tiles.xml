@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="guest.home" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/home.jsp"/>
+	</definition>
+	<definition name="guest.modify" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/modify.jsp"/>
+	</definition>
+	
+	<definition name="guest.Allchat" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/chat/room.jsp"/>
+	</definition>
+	
+	<definition name="guest.Departmentchat" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/chat/Department.jsp"/>
+	</definition>
+	
+	<definition name="guest.board" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/chat/board.jsp"/>
+	</definition>
+	
+	<definition name="guest.mail" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/mail.jsp"/>
+	</definition>
+	
+	<definition name="guest.sendmail" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/mail/sendmail.jsp"/>
+	</definition>
+</tiles-definitions>
